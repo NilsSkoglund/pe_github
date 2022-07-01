@@ -3,7 +3,7 @@ import streamlit as st
 st.info("Note! Pressing the small arrow (>) in the top left corner will show/hide a useful sidebar")
  
 wells_dvt_max_score = 9
- 
+st.subheader("MVP")
 # Check if 'key' already exists in session_state
 # If not, then initialize it
 if 'wells_dvt_score' not in st.session_state:
