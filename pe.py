@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.info("Note! Pressing the small arrow (>) in the top left corner will show/hide a useful sidebar")
+st.info("Note! Pressing the small arrow (>) in the top left corner will show a useful sidebar")
  
 wells_dvt_max_score = 9
 st.subheader("MVP")
