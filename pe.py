@@ -489,6 +489,11 @@ with st.expander("Developers' Notes & Questions"):
     st.write("- Will it significantly improve the UX?")
     st.write("- Estimated time for update: 5-20 hours")
     st.write("- Is it a reasonable priority for a MVP?")
+    st.info("Q: Toggle hide/show sidebar. Will it be a problem?")
+    st.write("https://discuss.streamlit.io/t/toggle-hide-show-sidebar-from-python/5805/3")
+
+
+    
 
 
 
