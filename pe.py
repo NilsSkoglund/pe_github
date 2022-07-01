@@ -233,7 +233,7 @@ with st.sidebar:
     st.markdown("---")
     st.header("Wells' Criteria for DVT")
     with st.expander("Optional user input"):
-        agree = st.checkbox("Mark when done", placeholder="Write here...")
+        agree = st.checkbox("Mark when done")
         st.text_input("Notes:", key="text_input_wells_dvt", max_chars=30)
     with st.expander("Summary Stats"):
         col1, col2, col3 = st.columns(3)
