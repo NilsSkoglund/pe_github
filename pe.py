@@ -754,11 +754,53 @@ with st.expander("Developers' Notes & Questions"):
     st.write("- Estimated time for update: 1-5 hours")
     st.write("- Confidence to get it done: 30%")
     st.write("- Is it a reasonable priority for a MVP?")
-
+    st.markdown("---")
 
     st.info("Note: Divide logic into Probability of PE and severity of PE")
     st.write("- Wells' DVT & PE + PERC deals with probability of PE")
     st.write("- PESI deals with severity")
+    st.markdown("---")
+
+    
+    st.info("Q: Include PESI in MVP?")
+    st.write("- Estimated time for update: 5-10 hours")
+    st.write("- Confidence to get it done: 80%")
+    st.write("- Is it a reasonable priority for a MVP?")
+    st.markdown("---")
+
+    st.info("Note: Bayesian Agent!")
+    st.write("- Just a concept atm but feels reasonable to make into reality")
+    st.write("- A dynamic code based Bayesian Agent who helps peoples'\
+        decision making include base rates / priors")
+    st.write("- Dr Bayes, when you need to outsource your system 2 thinking")
+    st.write("Dr. Wells on testing in medicine for MDCalc: The importance of\
+        Clinical pretest probability is underutilized in medicine.\
+        Recognizing the power of a simple concept, derived essentially\
+        from Bayes theorem, that discordance between the clinical PTP\
+        and the test result should raise suspicion of a false negative test\
+        (if high PTP) or false positive test (if low PTP), we sought to\
+        derive prediction rules for suspected DVT and for suspected PE.\
+        Used appropriately these rules will improve patient care.")
+    st.write("https://www.mdcalc.com/calc/115/wells-criteria-pulmonary-embolism")
+    st.markdown("---")
+
+    st.info("Note: UX/UI for Button Design")
+    st.write("- I.e. Heart rate in Simplified PESI form (see link below)")
+    st.write("- https://www.mdcalc.com/calc/1247/simplified-pesi-pulmonary-embolism-severity-index")
+    st.write()
+    st.markdown("---")
+
+    st.info("Note: Notes on interaction between DTV & PE forms")
+    st.write("- DTV: No / Yes / Go to Page")
+    st.write("- If DTV criteria is satisfied in DTV form, automatically update PE form")
+    st.markdown("---")
+
+    st.info("Note: System designs relationship to IVA/MIMA/VA")
+    st.write("- The algorithmic flow should be harmonious with the stratifications relationship to IVA/MIMA/VA")
+    st.markdown("---")
+
+
+
 
 
 
