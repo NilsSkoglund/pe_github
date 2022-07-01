@@ -729,7 +729,6 @@ with st.expander("Testing Different Layouts"):
 
 with st.expander("Developers' Notes & Questions"):
     st.info("Q: Is it really worth it to sync forms to be able to prepopulate fields?")
-        
     st.write("- To test the functionality: see HR sync between\
         Well's PE form and PERC PE form")
     st.write("- Concern: If we do it for one we should probably\
@@ -742,17 +741,24 @@ with st.expander("Developers' Notes & Questions"):
     st.write("- Confidence to get it done: 80%")
     st.write("- Is it a reasonable priority for a MVP?")
     st.markdown("---")
+
     st.info("Q: Layout preference for forms? Is it really worth it to deviate from the default?")
     st.write("- Will it significantly improve the UX?")
     st.write("- Estimated time for update: 5-20 hours")
     st.write("- Confidence to get it done: 90%")
     st.write("- Is it a reasonable priority for a MVP?")
     st.markdown("---")
+
     st.info("Q: Toggle hide/show sidebar. Will it be a problem?")
     st.write("https://discuss.streamlit.io/t/toggle-hide-show-sidebar-from-python/5805/3")
     st.write("- Estimated time for update: 1-5 hours")
     st.write("- Confidence to get it done: 30%")
     st.write("- Is it a reasonable priority for a MVP?")
+
+
+    st.info("Note: Divide logic into Probability of PE and severity of PE")
+    st.write("- Wells' DVT & PE + PERC deals with probability of PE")
+    st.write("- PESI deals with severity")
 
 
 
