@@ -230,6 +230,7 @@ if 'text_input_wells_dvt' not in st.session_state:
     st.session_state['text_input_wells_dvt'] = "..."
  
 with st.sidebar:
+    st.markdown("---")
     st.header("Wells' Criteria for DVT")
     with st.expander("Optional user input"):
         agree = st.checkbox("Mark when done")
