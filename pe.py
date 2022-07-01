@@ -420,6 +420,8 @@ with st.sidebar:
             st.error("PERC Rule Broken")
         else:
             st.success("PERC Rule Not Broken")
+    st.markdown("""---""")
+    
 
 
 
