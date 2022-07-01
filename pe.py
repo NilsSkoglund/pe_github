@@ -799,6 +799,11 @@ with st.expander("Developers' Notes & Questions"):
     st.write("- The algorithmic flow should be harmonious with the stratifications relationship to IVA/MIMA/VA")
     st.markdown("---")
 
+    st.info("Q: Only 2 options?")
+    st.write("- Do we ever want to make the trade off between increased memory\
+        vs decreased efficiency (3 options instead of 2 options)")
+    st.markdown("---")
+
 
 
 
